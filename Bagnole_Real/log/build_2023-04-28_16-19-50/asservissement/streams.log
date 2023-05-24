@@ -1,0 +1,34 @@
+[0.014s] Invoking command in '/workspaces/voiture2A-ros/build/asservissement': /usr/bin/cmake /workspaces/voiture2A-ros/src/asservissement -DCMAKE_INSTALL_PREFIX=/workspaces/voiture2A-ros/install/asservissement
+[0.059s] -- The C compiler identification is GNU 11.3.0
+[0.108s] -- The CXX compiler identification is GNU 11.3.0
+[0.113s] -- Detecting C compiler ABI info
+[0.168s] -- Detecting C compiler ABI info - done
+[0.174s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.175s] -- Detecting C compile features
+[0.175s] -- Detecting C compile features - done
+[0.177s] -- Detecting CXX compiler ABI info
+[0.243s] -- Detecting CXX compiler ABI info - done
+[0.252s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.253s] -- Detecting CXX compile features
+[0.253s] -- Detecting CXX compile features - done
+[0.255s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.401s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.421s] Traceback (most recent call last):
+[0.421s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>
+[0.421s]     from ament_package.templates import get_environment_hook_template_path
+[0.421s] ModuleNotFoundError: No module named 'ament_package'
+[0.426s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):
+[0.426s]   execute_process(/usr/bin/python3.10
+[0.426s]   /opt/ros/humble/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py
+[0.426s]   /workspaces/voiture2A-ros/build/asservissement/ament_cmake_package_templates/templates.cmake)
+[0.426s]   returned error code 1
+[0.426s] Call Stack (most recent call first):
+[0.426s]   /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.427s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.427s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.427s]   CMakeLists.txt:19 (find_package)
+[0.427s] 
+[0.427s] [0m
+[0.427s] -- Configuring incomplete, errors occurred!
+[0.427s] See also "/workspaces/voiture2A-ros/build/asservissement/CMakeFiles/CMakeOutput.log".
+[0.433s] Invoked command in '/workspaces/voiture2A-ros/build/asservissement' returned '1': /usr/bin/cmake /workspaces/voiture2A-ros/src/asservissement -DCMAKE_INSTALL_PREFIX=/workspaces/voiture2A-ros/install/asservissement

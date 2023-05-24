@@ -1,0 +1,1 @@
+Invoking command in '/workspaces/voiture2A-ros/build/commandant': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /workspaces/voiture2A-ros/src/commandant -DCMAKE_INSTALL_PREFIX=/workspaces/voiture2A-ros/install/commandant

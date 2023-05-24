@@ -1,0 +1,38 @@
+[0.025s] Invoking command in '/workspaces/voiture2A-ros/build/commandant': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /workspaces/voiture2A-ros/src/commandant -DCMAKE_INSTALL_PREFIX=/workspaces/voiture2A-ros/install/commandant
+[0.037s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.184s] -- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)
+[0.227s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.230s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.237s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.250s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.263s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.325s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.328s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.426s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.460s] -- Found FastRTPS: /opt/ros/humble/share  
+[0.519s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.531s] -- Looking for pthread.h
+[0.597s] -- Looking for pthread.h - found
+[0.597s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.658s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.658s] -- Found Threads: TRUE  
+[0.795s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[0.924s] -- Found tf2: 0.25.2 (/opt/ros/humble/share/tf2/cmake)
+[0.982s] -- Found tf2_geometry_msgs: 0.25.2 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.003s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.005s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.005s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.256s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.341s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.342s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.342s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/workspaces/voiture2A-ros/src/commandant/include>
+[1.342s] -- Configured cppcheck exclude dirs and/or files: 
+[1.343s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.343s] -- Configured cpplint exclude dirs and/or files: 
+[1.344s] -- Added test 'lint_cmake' to check CMake code style
+[1.345s] -- Added test 'uncrustify' to check C / C++ code style
+[1.345s] -- Configured uncrustify additional arguments: 
+[1.346s] -- Added test 'xmllint' to check XML markup files
+[1.347s] -- Configuring done
+[1.359s] -- Generating done
+[1.360s] -- Build files have been written to: /workspaces/voiture2A-ros/build/commandant

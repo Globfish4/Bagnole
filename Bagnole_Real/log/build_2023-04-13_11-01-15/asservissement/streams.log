@@ -1,0 +1,23 @@
+[0.012s] Invoking command in '/home/camilo/Documents/ENSTA/4.1/ROS/voitureReal/voiture2A-ros/build/asservissement': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/camilo/Documents/ENSTA/4.1/ROS/voitureReal/voiture2A-ros/build/asservissement -- -j12 -l12
+[0.044s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.064s] -- Using PYTHON_EXECUTABLE: /home/camilo/miniconda3/bin/python3
+[0.195s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.218s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.221s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.300s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.333s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.334s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.434s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.457s] CMake Error at /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+[0.457s]   rosidl_generate_interfaces() the passed file 'msg/GpsFix.msg' doesn't exist
+[0.457s]   relative to the CMAKE_CURRENT_SOURCE_DIR
+[0.457s]   '/home/camilo/Documents/ENSTA/4.1/ROS/voitureReal/voiture2A-ros/src/asservissement'
+[0.457s] Call Stack (most recent call first):
+[0.457s]   CMakeLists.txt:27 (rosidl_generate_interfaces)
+[0.458s] 
+[0.458s] 
+[0.458s] -- Configuring incomplete, errors occurred!
+[0.458s] See also "/home/camilo/Documents/ENSTA/4.1/ROS/voitureReal/voiture2A-ros/build/asservissement/CMakeFiles/CMakeOutput.log".
+[0.458s] See also "/home/camilo/Documents/ENSTA/4.1/ROS/voitureReal/voiture2A-ros/build/asservissement/CMakeFiles/CMakeError.log".
+[0.462s] make: *** [Makefile:222: cmake_check_build_system] Error 1
+[0.464s] Invoked command in '/home/camilo/Documents/ENSTA/4.1/ROS/voitureReal/voiture2A-ros/build/asservissement' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/camilo/Documents/ENSTA/4.1/ROS/voitureReal/voiture2A-ros/build/asservissement -- -j12 -l12

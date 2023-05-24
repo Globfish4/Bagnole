@@ -1,0 +1,21 @@
+[0.017s] Invoking command in '/workspaces/voiture2A-ros/build/gpsd_client': /usr/bin/cmake /workspaces/voiture2A-ros/src/gpsd_client -DCMAKE_INSTALL_PREFIX=/workspaces/voiture2A-ros/install/gpsd_client
+[0.037s] [31mCMake Error at CMakeLists.txt:6 (find_package):
+[0.037s]   By not providing "Findrosidl_default_generators.cmake" in CMAKE_MODULE_PATH
+[0.038s]   this project has asked CMake to find a package configuration file provided
+[0.038s]   by "rosidl_default_generators", but CMake did not find one.
+[0.038s] 
+[0.038s]   Could not find a package configuration file provided by
+[0.038s]   "rosidl_default_generators" with any of the following names:
+[0.038s] 
+[0.038s]     rosidl_default_generatorsConfig.cmake
+[0.038s]     rosidl_default_generators-config.cmake
+[0.038s] 
+[0.038s]   Add the installation prefix of "rosidl_default_generators" to
+[0.039s]   CMAKE_PREFIX_PATH or set "rosidl_default_generators_DIR" to a directory
+[0.039s]   containing one of the above files.  If "rosidl_default_generators" provides
+[0.039s]   a separate development package or SDK, be sure it has been installed.
+[0.039s] 
+[0.040s] [0m
+[0.044s] -- Configuring incomplete, errors occurred!
+[0.045s] See also "/workspaces/voiture2A-ros/build/gpsd_client/CMakeFiles/CMakeOutput.log".
+[0.045s] Invoked command in '/workspaces/voiture2A-ros/build/gpsd_client' returned '1': /usr/bin/cmake /workspaces/voiture2A-ros/src/gpsd_client -DCMAKE_INSTALL_PREFIX=/workspaces/voiture2A-ros/install/gpsd_client

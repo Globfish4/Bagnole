@@ -1,0 +1,33 @@
+[0.014s] Invoking command in '/home/camilo/Documents/ENSTA/4.1/ROS/voitureReal/voiture2A-ros/build/asservissement': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/camilo/Documents/ENSTA/4.1/ROS/voitureReal/voiture2A-ros/build/asservissement -- -j12 -l12
+[0.075s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.095s] -- Using PYTHON_EXECUTABLE: /home/camilo/miniconda3/bin/python3
+[0.263s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.312s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.315s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.403s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.478s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.482s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.588s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.614s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.628s] CMake Error at CMakeLists.txt:24 (find_package):
+[0.628s]   By not providing "Findgpsd_client.cmake" in CMAKE_MODULE_PATH this project
+[0.628s]   has asked CMake to find a package configuration file provided by
+[0.628s]   "gpsd_client", but CMake did not find one.
+[0.628s] 
+[0.628s]   Could not find a package configuration file provided by "gpsd_client" with
+[0.628s]   any of the following names:
+[0.628s] 
+[0.628s]     gpsd_clientConfig.cmake
+[0.628s]     gpsd_client-config.cmake
+[0.628s] 
+[0.628s]   Add the installation prefix of "gpsd_client" to CMAKE_PREFIX_PATH or set
+[0.628s]   "gpsd_client_DIR" to a directory containing one of the above files.  If
+[0.629s]   "gpsd_client" provides a separate development package or SDK, be sure it
+[0.629s]   has been installed.
+[0.629s] 
+[0.629s] 
+[0.629s] -- Configuring incomplete, errors occurred!
+[0.629s] See also "/home/camilo/Documents/ENSTA/4.1/ROS/voitureReal/voiture2A-ros/build/asservissement/CMakeFiles/CMakeOutput.log".
+[0.629s] See also "/home/camilo/Documents/ENSTA/4.1/ROS/voitureReal/voiture2A-ros/build/asservissement/CMakeFiles/CMakeError.log".
+[0.634s] make: *** [Makefile:222: cmake_check_build_system] Error 1
+[0.636s] Invoked command in '/home/camilo/Documents/ENSTA/4.1/ROS/voitureReal/voiture2A-ros/build/asservissement' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/camilo/Documents/ENSTA/4.1/ROS/voitureReal/voiture2A-ros/build/asservissement -- -j12 -l12

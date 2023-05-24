@@ -1,0 +1,104 @@
+[0.000000] (-) TimerEvent: {}
+[0.000973] (asservissement) JobQueued: {'identifier': 'asservissement', 'dependencies': OrderedDict()}
+[0.001023] (commandant) JobQueued: {'identifier': 'commandant', 'dependencies': OrderedDict()}
+[0.001075] (gpsd_client) JobQueued: {'identifier': 'gpsd_client', 'dependencies': OrderedDict()}
+[0.001109] (voiture2a_motors_driver) JobQueued: {'identifier': 'voiture2a_motors_driver', 'dependencies': OrderedDict()}
+[0.001240] (projection_node) JobQueued: {'identifier': 'projection_node', 'dependencies': OrderedDict([('gpsd_client', '/workspaces/voiture2A-ros/install/gpsd_client')])}
+[0.001266] (gpsd_client) JobStarted: {'identifier': 'gpsd_client'}
+[0.005905] (asservissement) JobStarted: {'identifier': 'asservissement'}
+[0.009756] (commandant) JobStarted: {'identifier': 'commandant'}
+[0.012492] (voiture2a_motors_driver) JobStarted: {'identifier': 'voiture2a_motors_driver'}
+[0.016288] (gpsd_client) JobProgress: {'identifier': 'gpsd_client', 'progress': 'cmake'}
+[0.016721] (gpsd_client) Command: {'cmd': ['/usr/bin/cmake', '/workspaces/voiture2A-ros/src/gpsd_client', '-DCMAKE_INSTALL_PREFIX=/workspaces/voiture2A-ros/install/gpsd_client'], 'cwd': '/workspaces/voiture2A-ros/build/gpsd_client', 'env': OrderedDict([('HOSTNAME', 'a5adf698a75a'), ('SHLVL', '1'), ('HOME', '/root'), ('OLDPWD', '/workspaces'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('NVIDIA_DRIVER_CAPABILITIES', 'graphics'), ('TERM', 'xterm'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('PWD', '/workspaces/voiture2A-ros/build/gpsd_client'), ('LC_ALL', 'C.UTF-8'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('EDITOR', 'nano')]), 'shell': False}
+[0.018200] (asservissement) JobProgress: {'identifier': 'asservissement', 'progress': 'cmake'}
+[0.018618] (asservissement) Command: {'cmd': ['/usr/bin/cmake', '/workspaces/voiture2A-ros/src/asservissement', '-DCMAKE_INSTALL_PREFIX=/workspaces/voiture2A-ros/install/asservissement'], 'cwd': '/workspaces/voiture2A-ros/build/asservissement', 'env': OrderedDict([('HOSTNAME', 'a5adf698a75a'), ('SHLVL', '1'), ('HOME', '/root'), ('OLDPWD', '/workspaces'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('NVIDIA_DRIVER_CAPABILITIES', 'graphics'), ('TERM', 'xterm'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('PWD', '/workspaces/voiture2A-ros/build/asservissement'), ('LC_ALL', 'C.UTF-8'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('EDITOR', 'nano')]), 'shell': False}
+[0.019600] (commandant) JobProgress: {'identifier': 'commandant', 'progress': 'cmake'}
+[0.019818] (commandant) Command: {'cmd': ['/usr/bin/cmake', '/workspaces/voiture2A-ros/src/commandant', '-DCMAKE_INSTALL_PREFIX=/workspaces/voiture2A-ros/install/commandant'], 'cwd': '/workspaces/voiture2A-ros/build/commandant', 'env': OrderedDict([('HOSTNAME', 'a5adf698a75a'), ('SHLVL', '1'), ('HOME', '/root'), ('OLDPWD', '/workspaces'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('NVIDIA_DRIVER_CAPABILITIES', 'graphics'), ('TERM', 'xterm'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('PWD', '/workspaces/voiture2A-ros/build/commandant'), ('LC_ALL', 'C.UTF-8'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('EDITOR', 'nano')]), 'shell': False}
+[0.021221] (voiture2a_motors_driver) JobProgress: {'identifier': 'voiture2a_motors_driver', 'progress': 'cmake'}
+[0.021536] (voiture2a_motors_driver) Command: {'cmd': ['/usr/bin/cmake', '/workspaces/voiture2A-ros/src/voiture2a_motors_driver', '-DCMAKE_INSTALL_PREFIX=/workspaces/voiture2A-ros/install/voiture2a_motors_driver'], 'cwd': '/workspaces/voiture2A-ros/build/voiture2a_motors_driver', 'env': OrderedDict([('HOSTNAME', 'a5adf698a75a'), ('SHLVL', '1'), ('HOME', '/root'), ('OLDPWD', '/workspaces'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('NVIDIA_DRIVER_CAPABILITIES', 'graphics'), ('TERM', 'xterm'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('PWD', '/workspaces/voiture2A-ros/build/voiture2a_motors_driver'), ('LC_ALL', 'C.UTF-8'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('EDITOR', 'nano')]), 'shell': False}
+[0.038334] (gpsd_client) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:6 (find_package):\n'}
+[0.038661] (gpsd_client) StderrLine: {'line': b'  By not providing "Findrosidl_default_generators.cmake" in CMAKE_MODULE_PATH\n'}
+[0.038750] (gpsd_client) StderrLine: {'line': b'  this project has asked CMake to find a package configuration file provided\n'}
+[0.038823] (gpsd_client) StderrLine: {'line': b'  by "rosidl_default_generators", but CMake did not find one.\n'}
+[0.038891] (gpsd_client) StderrLine: {'line': b'\n'}
+[0.038958] (gpsd_client) StderrLine: {'line': b'  Could not find a package configuration file provided by\n'}
+[0.039023] (gpsd_client) StderrLine: {'line': b'  "rosidl_default_generators" with any of the following names:\n'}
+[0.039089] (gpsd_client) StderrLine: {'line': b'\n'}
+[0.039153] (gpsd_client) StderrLine: {'line': b'    rosidl_default_generatorsConfig.cmake\n'}
+[0.039217] (gpsd_client) StderrLine: {'line': b'    rosidl_default_generators-config.cmake\n'}
+[0.039304] (gpsd_client) StderrLine: {'line': b'\n'}
+[0.039438] (gpsd_client) StderrLine: {'line': b'  Add the installation prefix of "rosidl_default_generators" to\n'}
+[0.039829] (gpsd_client) StderrLine: {'line': b'  CMAKE_PREFIX_PATH or set "rosidl_default_generators_DIR" to a directory\n'}
+[0.040212] (gpsd_client) StderrLine: {'line': b'  containing one of the above files.  If "rosidl_default_generators" provides\n'}
+[0.040313] (gpsd_client) StderrLine: {'line': b'  a separate development package or SDK, be sure it has been installed.\n'}
+[0.040419] (gpsd_client) StderrLine: {'line': b'\n'}
+[0.040753] (gpsd_client) StderrLine: {'line': b'\x1b[0m\n'}
+[0.040901] (asservissement) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:20 (find_package):\n'}
+[0.041209] (asservissement) StderrLine: {'line': b'  By not providing "Findrclcpp.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[0.041740] (asservissement) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "rclcpp", but\n'}
+[0.041948] (asservissement) StderrLine: {'line': b'  CMake did not find one.\n'}
+[0.042199] (asservissement) StderrLine: {'line': b'\n'}
+[0.042389] (asservissement) StderrLine: {'line': b'  Could not find a package configuration file provided by "rclcpp" with any\n'}
+[0.042489] (asservissement) StderrLine: {'line': b'  of the following names:\n'}
+[0.042881] (asservissement) StderrLine: {'line': b'\n'}
+[0.043553] (asservissement) StderrLine: {'line': b'    rclcppConfig.cmake\n'}
+[0.043775] (asservissement) StderrLine: {'line': b'    rclcpp-config.cmake\n'}
+[0.043971] (asservissement) StderrLine: {'line': b'\n'}
+[0.044071] (asservissement) StderrLine: {'line': b'  Add the installation prefix of "rclcpp" to CMAKE_PREFIX_PATH or set\n'}
+[0.044409] (asservissement) StderrLine: {'line': b'  "rclcpp_DIR" to a directory containing one of the above files.  If "rclcpp"\n'}
+[0.044546] (asservissement) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[0.044666] (asservissement) StderrLine: {'line': b'  installed.\n'}
+[0.044815] (asservissement) StderrLine: {'line': b'\n'}
+[0.044897] (asservissement) StderrLine: {'line': b'\x1b[0m\n'}
+[0.045054] (gpsd_client) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.045724] (gpsd_client) StdoutLine: {'line': b'See also "/workspaces/voiture2A-ros/build/gpsd_client/CMakeFiles/CMakeOutput.log".\n'}
+[0.045863] (asservissement) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.045993] (asservissement) StdoutLine: {'line': b'See also "/workspaces/voiture2A-ros/build/asservissement/CMakeFiles/CMakeOutput.log".\n'}
+[0.046105] (gpsd_client) CommandEnded: {'returncode': 1}
+[0.046397] (voiture2a_motors_driver) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:9 (find_package):\n'}
+[0.046538] (voiture2a_motors_driver) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.046716] (voiture2a_motors_driver) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.046850] (voiture2a_motors_driver) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[0.046941] (voiture2a_motors_driver) StderrLine: {'line': b'\n'}
+[0.047034] (voiture2a_motors_driver) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[0.047141] (voiture2a_motors_driver) StderrLine: {'line': b'  any of the following names:\n'}
+[0.047240] (voiture2a_motors_driver) StderrLine: {'line': b'\n'}
+[0.047354] (voiture2a_motors_driver) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[0.047859] (voiture2a_motors_driver) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[0.048178] (voiture2a_motors_driver) StderrLine: {'line': b'\n'}
+[0.049123] (voiture2a_motors_driver) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[0.049389] (voiture2a_motors_driver) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[0.049574] (voiture2a_motors_driver) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[0.049747] (voiture2a_motors_driver) StderrLine: {'line': b'  has been installed.\n'}
+[0.050225] (voiture2a_motors_driver) StderrLine: {'line': b'\n'}
+[0.050365] (voiture2a_motors_driver) StderrLine: {'line': b'\x1b[0m\n'}
+[0.050503] (voiture2a_motors_driver) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.050641] (voiture2a_motors_driver) StdoutLine: {'line': b'See also "/workspaces/voiture2A-ros/build/voiture2a_motors_driver/CMakeFiles/CMakeOutput.log".\n'}
+[0.050735] (commandant) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:19 (find_package):\n'}
+[0.050902] (commandant) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.051032] (commandant) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.051444] (commandant) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[0.051578] (commandant) StderrLine: {'line': b'\n'}
+[0.051728] (commandant) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[0.052094] (commandant) StderrLine: {'line': b'  any of the following names:\n'}
+[0.052225] (commandant) StderrLine: {'line': b'\n'}
+[0.052305] (commandant) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[0.053150] (commandant) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[0.053243] (commandant) StderrLine: {'line': b'\n'}
+[0.053371] (commandant) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[0.053459] (commandant) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[0.053579] (commandant) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[0.054118] (commandant) StderrLine: {'line': b'  has been installed.\n'}
+[0.054208] (commandant) StderrLine: {'line': b'\n'}
+[0.054750] (commandant) StderrLine: {'line': b'\x1b[0m\n'}
+[0.054882] (commandant) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.055006] (commandant) StdoutLine: {'line': b'See also "/workspaces/voiture2A-ros/build/commandant/CMakeFiles/CMakeOutput.log".\n'}
+[0.055191] (asservissement) CommandEnded: {'returncode': 1}
+[0.055434] (commandant) CommandEnded: {'returncode': 1}
+[0.055621] (voiture2a_motors_driver) CommandEnded: {'returncode': 1}
+[0.061283] (gpsd_client) JobEnded: {'identifier': 'gpsd_client', 'rc': 1}
+[0.062212] (asservissement) JobEnded: {'identifier': 'asservissement', 'rc': 'SIGINT'}
+[0.062481] (voiture2a_motors_driver) JobEnded: {'identifier': 'voiture2a_motors_driver', 'rc': 'SIGINT'}
+[0.062731] (commandant) JobEnded: {'identifier': 'commandant', 'rc': 'SIGINT'}
+[0.073054] (projection_node) JobSkipped: {'identifier': 'projection_node'}
+[0.073279] (-) EventReactorShutdown: {}

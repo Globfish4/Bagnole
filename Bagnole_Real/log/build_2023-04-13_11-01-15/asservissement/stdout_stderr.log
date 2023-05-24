@@ -1,0 +1,21 @@
+-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /home/camilo/miniconda3/bin/python3
+-- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+CMake Error at /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+  rosidl_generate_interfaces() the passed file 'msg/GpsFix.msg' doesn't exist
+  relative to the CMAKE_CURRENT_SOURCE_DIR
+  '/home/camilo/Documents/ENSTA/4.1/ROS/voitureReal/voiture2A-ros/src/asservissement'
+Call Stack (most recent call first):
+  CMakeLists.txt:27 (rosidl_generate_interfaces)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/camilo/Documents/ENSTA/4.1/ROS/voitureReal/voiture2A-ros/build/asservissement/CMakeFiles/CMakeOutput.log".
+See also "/home/camilo/Documents/ENSTA/4.1/ROS/voitureReal/voiture2A-ros/build/asservissement/CMakeFiles/CMakeError.log".
+make: *** [Makefile:222: cmake_check_build_system] Error 1

@@ -1,0 +1,252 @@
+[0.258s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.258s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f6929805600>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f6929804f70>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f6929804f70>>, mixin_verb=('build',))
+[0.292s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.293s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/Gazebo.meta'
+[0.294s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastrtps.meta'
+[0.294s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.294s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.294s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.294s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.294s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.294s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/workspaces/voiture2A-ros'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extensions ['ignore', 'ignore_ament_install']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extension 'ignore'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extension 'ignore_ament_install'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extensions ['colcon_pkg']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extension 'colcon_pkg'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extensions ['colcon_meta']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extension 'colcon_meta'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extensions ['ros']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extension 'ros'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extensions ['cmake', 'python']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extension 'cmake'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extension 'python'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extensions ['python_setup_py']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extension 'python_setup_py'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['ignore', 'ignore_ament_install']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ignore'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ignore_ament_install'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['colcon_pkg']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'colcon_pkg'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['colcon_meta']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'colcon_meta'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['ros']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ros'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['cmake', 'python']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'cmake'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'python'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['python_setup_py']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'python_setup_py'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/asservissement) by extensions ['ignore', 'ignore_ament_install']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/asservissement) by extension 'ignore'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/asservissement) by extension 'ignore_ament_install'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/asservissement) by extensions ['colcon_pkg']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/asservissement) by extension 'colcon_pkg'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/asservissement) by extensions ['colcon_meta']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/asservissement) by extension 'colcon_meta'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/asservissement) by extensions ['ros']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/asservissement) by extension 'ros'
+[0.311s] DEBUG:colcon.colcon_core.package_identification:Package 'src/asservissement' with type 'ros.ament_cmake' and name 'asservissement'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/commandant) by extensions ['ignore', 'ignore_ament_install']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/commandant) by extension 'ignore'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/commandant) by extension 'ignore_ament_install'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/commandant) by extensions ['colcon_pkg']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/commandant) by extension 'colcon_pkg'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/commandant) by extensions ['colcon_meta']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/commandant) by extension 'colcon_meta'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/commandant) by extensions ['ros']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/commandant) by extension 'ros'
+[0.313s] DEBUG:colcon.colcon_core.package_identification:Package 'src/commandant' with type 'ros.ament_cmake' and name 'commandant'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/gpsd_client) by extensions ['ignore', 'ignore_ament_install']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/gpsd_client) by extension 'ignore'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/gpsd_client) by extension 'ignore_ament_install'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/gpsd_client) by extensions ['colcon_pkg']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/gpsd_client) by extension 'colcon_pkg'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/gpsd_client) by extensions ['colcon_meta']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/gpsd_client) by extension 'colcon_meta'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/gpsd_client) by extensions ['ros']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/gpsd_client) by extension 'ros'
+[0.314s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gpsd_client' with type 'ros.ament_cmake' and name 'gpsd_client'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/projection_node) by extensions ['ignore', 'ignore_ament_install']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/projection_node) by extension 'ignore'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/projection_node) by extension 'ignore_ament_install'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/projection_node) by extensions ['colcon_pkg']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/projection_node) by extension 'colcon_pkg'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/projection_node) by extensions ['colcon_meta']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/projection_node) by extension 'colcon_meta'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/projection_node) by extensions ['ros']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/projection_node) by extension 'ros'
+[0.315s] DEBUG:colcon.colcon_core.package_identification:Package 'src/projection_node' with type 'ros.ament_cmake' and name 'projection_node'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/voiture2a_motors_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/voiture2a_motors_driver) by extension 'ignore'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/voiture2a_motors_driver) by extension 'ignore_ament_install'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/voiture2a_motors_driver) by extensions ['colcon_pkg']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/voiture2a_motors_driver) by extension 'colcon_pkg'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/voiture2a_motors_driver) by extensions ['colcon_meta']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/voiture2a_motors_driver) by extension 'colcon_meta'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/voiture2a_motors_driver) by extensions ['ros']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/voiture2a_motors_driver) by extension 'ros'
+[0.316s] DEBUG:colcon.colcon_core.package_identification:Package 'src/voiture2a_motors_driver' with type 'ros.ament_cmake' and name 'voiture2a_motors_driver'
+[0.316s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.316s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.316s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.316s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.316s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'asservissement' build argument 'cmake_args' from command line to 'None'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'asservissement' build argument 'cmake_target' from command line to 'None'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'asservissement' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'asservissement' build argument 'cmake_clean_cache' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'asservissement' build argument 'cmake_clean_first' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'asservissement' build argument 'cmake_force_configure' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'asservissement' build argument 'ament_cmake_args' from command line to 'None'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'asservissement' build argument 'catkin_cmake_args' from command line to 'None'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'asservissement' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.339s] DEBUG:colcon.colcon_core.verb:Building package 'asservissement' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspaces/voiture2A-ros/build/asservissement', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspaces/voiture2A-ros/install/asservissement', 'merge_install': False, 'path': '/workspaces/voiture2A-ros/src/asservissement', 'symlink_install': False, 'test_result_base': None}
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'commandant' build argument 'cmake_args' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'commandant' build argument 'cmake_target' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'commandant' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'commandant' build argument 'cmake_clean_cache' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'commandant' build argument 'cmake_clean_first' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'commandant' build argument 'cmake_force_configure' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'commandant' build argument 'ament_cmake_args' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'commandant' build argument 'catkin_cmake_args' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'commandant' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.340s] DEBUG:colcon.colcon_core.verb:Building package 'commandant' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspaces/voiture2A-ros/build/commandant', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspaces/voiture2A-ros/install/commandant', 'merge_install': False, 'path': '/workspaces/voiture2A-ros/src/commandant', 'symlink_install': False, 'test_result_base': None}
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'gpsd_client' build argument 'cmake_args' from command line to 'None'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'gpsd_client' build argument 'cmake_target' from command line to 'None'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'gpsd_client' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'gpsd_client' build argument 'cmake_clean_cache' from command line to 'False'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'gpsd_client' build argument 'cmake_clean_first' from command line to 'False'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'gpsd_client' build argument 'cmake_force_configure' from command line to 'False'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'gpsd_client' build argument 'ament_cmake_args' from command line to 'None'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'gpsd_client' build argument 'catkin_cmake_args' from command line to 'None'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'gpsd_client' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.341s] DEBUG:colcon.colcon_core.verb:Building package 'gpsd_client' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspaces/voiture2A-ros/build/gpsd_client', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspaces/voiture2A-ros/install/gpsd_client', 'merge_install': False, 'path': '/workspaces/voiture2A-ros/src/gpsd_client', 'symlink_install': False, 'test_result_base': None}
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'voiture2a_motors_driver' build argument 'cmake_args' from command line to 'None'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'voiture2a_motors_driver' build argument 'cmake_target' from command line to 'None'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'voiture2a_motors_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'voiture2a_motors_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'voiture2a_motors_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'voiture2a_motors_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'voiture2a_motors_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'voiture2a_motors_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'voiture2a_motors_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.342s] DEBUG:colcon.colcon_core.verb:Building package 'voiture2a_motors_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspaces/voiture2A-ros/build/voiture2a_motors_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspaces/voiture2A-ros/install/voiture2a_motors_driver', 'merge_install': False, 'path': '/workspaces/voiture2A-ros/src/voiture2a_motors_driver', 'symlink_install': False, 'test_result_base': None}
+[0.343s] Level 5:colcon.colcon_core.verb:set package 'projection_node' build argument 'cmake_args' from command line to 'None'
+[0.343s] Level 5:colcon.colcon_core.verb:set package 'projection_node' build argument 'cmake_target' from command line to 'None'
+[0.343s] Level 5:colcon.colcon_core.verb:set package 'projection_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.343s] Level 5:colcon.colcon_core.verb:set package 'projection_node' build argument 'cmake_clean_cache' from command line to 'False'
+[0.343s] Level 5:colcon.colcon_core.verb:set package 'projection_node' build argument 'cmake_clean_first' from command line to 'False'
+[0.343s] Level 5:colcon.colcon_core.verb:set package 'projection_node' build argument 'cmake_force_configure' from command line to 'False'
+[0.343s] Level 5:colcon.colcon_core.verb:set package 'projection_node' build argument 'ament_cmake_args' from command line to 'None'
+[0.343s] Level 5:colcon.colcon_core.verb:set package 'projection_node' build argument 'catkin_cmake_args' from command line to 'None'
+[0.343s] Level 5:colcon.colcon_core.verb:set package 'projection_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.343s] DEBUG:colcon.colcon_core.verb:Building package 'projection_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspaces/voiture2A-ros/build/projection_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspaces/voiture2A-ros/install/projection_node', 'merge_install': False, 'path': '/workspaces/voiture2A-ros/src/projection_node', 'symlink_install': False, 'test_result_base': None}
+[0.343s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.347s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.347s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/workspaces/voiture2A-ros/src/gpsd_client' with build type 'ament_cmake'
+[0.347s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/workspaces/voiture2A-ros/src/gpsd_client'
+[0.351s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.351s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.351s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.353s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/workspaces/voiture2A-ros/src/asservissement' with build type 'ament_cmake'
+[0.353s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/workspaces/voiture2A-ros/src/asservissement'
+[0.354s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.354s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.355s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/workspaces/voiture2A-ros/src/commandant' with build type 'ament_cmake'
+[0.355s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/workspaces/voiture2A-ros/src/commandant'
+[0.356s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.356s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.357s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/workspaces/voiture2A-ros/src/voiture2a_motors_driver' with build type 'ament_cmake'
+[0.357s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/workspaces/voiture2A-ros/src/voiture2a_motors_driver'
+[0.358s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.358s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.362s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/voiture2A-ros/build/gpsd_client': /usr/bin/cmake /workspaces/voiture2A-ros/src/gpsd_client -DCMAKE_INSTALL_PREFIX=/workspaces/voiture2A-ros/install/gpsd_client
+[0.369s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/voiture2A-ros/build/asservissement': /usr/bin/cmake --build /workspaces/voiture2A-ros/build/asservissement -- -j12 -l12
+[0.372s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/voiture2A-ros/build/commandant': /usr/bin/cmake /workspaces/voiture2A-ros/src/commandant -DCMAKE_INSTALL_PREFIX=/workspaces/voiture2A-ros/install/commandant
+[0.376s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/voiture2A-ros/build/voiture2a_motors_driver': /usr/bin/cmake /workspaces/voiture2A-ros/src/voiture2a_motors_driver -DCMAKE_INSTALL_PREFIX=/workspaces/voiture2A-ros/install/voiture2a_motors_driver
+[0.387s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/voiture2A-ros/build/gpsd_client' returned '1': /usr/bin/cmake /workspaces/voiture2A-ros/src/gpsd_client -DCMAKE_INSTALL_PREFIX=/workspaces/voiture2A-ros/install/gpsd_client
+[0.393s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gpsd_client)
+[0.402s] Level 1:colcon.colcon_core.environment:checking '/workspaces/voiture2A-ros/install/gpsd_client' for CMake module files
+[0.402s] Level 1:colcon.colcon_core.environment:checking '/workspaces/voiture2A-ros/install/gpsd_client' for CMake config files
+[0.402s] Level 1:colcon.colcon_core.environment:checking '/workspaces/voiture2A-ros/install/gpsd_client/bin'
+[0.403s] Level 1:colcon.colcon_core.environment:checking '/workspaces/voiture2A-ros/install/gpsd_client/lib/pkgconfig/gpsd_client.pc'
+[0.404s] Level 1:colcon.colcon_core.environment:checking '/workspaces/voiture2A-ros/install/gpsd_client/lib/python3.10/site-packages'
+[0.404s] Level 1:colcon.colcon_core.environment:checking '/workspaces/voiture2A-ros/install/gpsd_client/bin'
+[0.405s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/voiture2A-ros/install/gpsd_client/share/gpsd_client/package.ps1'
+[0.406s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspaces/voiture2A-ros/install/gpsd_client/share/gpsd_client/package.dsv'
+[0.406s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/voiture2A-ros/install/gpsd_client/share/gpsd_client/package.sh'
+[0.407s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/voiture2A-ros/install/gpsd_client/share/gpsd_client/package.bash'
+[0.407s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/voiture2A-ros/install/gpsd_client/share/gpsd_client/package.zsh'
+[0.408s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspaces/voiture2A-ros/install/gpsd_client/share/colcon-core/packages/gpsd_client)
+[0.409s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/voiture2A-ros/build/voiture2a_motors_driver' returned '1': /usr/bin/cmake /workspaces/voiture2A-ros/src/voiture2a_motors_driver -DCMAKE_INSTALL_PREFIX=/workspaces/voiture2A-ros/install/voiture2a_motors_driver
+[0.417s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(voiture2a_motors_driver)
+[0.420s] Level 1:colcon.colcon_core.environment:checking '/workspaces/voiture2A-ros/install/voiture2a_motors_driver' for CMake module files
+[0.420s] Level 1:colcon.colcon_core.environment:checking '/workspaces/voiture2A-ros/install/voiture2a_motors_driver' for CMake config files
+[0.421s] Level 1:colcon.colcon_core.environment:checking '/workspaces/voiture2A-ros/install/voiture2a_motors_driver/bin'
+[0.421s] Level 1:colcon.colcon_core.environment:checking '/workspaces/voiture2A-ros/install/voiture2a_motors_driver/lib/pkgconfig/voiture2a_motors_driver.pc'
+[0.421s] Level 1:colcon.colcon_core.environment:checking '/workspaces/voiture2A-ros/install/voiture2a_motors_driver/lib/python3.10/site-packages'
+[0.421s] Level 1:colcon.colcon_core.environment:checking '/workspaces/voiture2A-ros/install/voiture2a_motors_driver/bin'
+[0.423s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/voiture2A-ros/install/voiture2a_motors_driver/share/voiture2a_motors_driver/package.ps1'
+[0.423s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspaces/voiture2A-ros/install/voiture2a_motors_driver/share/voiture2a_motors_driver/package.dsv'
+[0.424s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/voiture2A-ros/install/voiture2a_motors_driver/share/voiture2a_motors_driver/package.sh'
+[0.424s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/voiture2A-ros/install/voiture2a_motors_driver/share/voiture2a_motors_driver/package.bash'
+[0.424s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/voiture2A-ros/install/voiture2a_motors_driver/share/voiture2a_motors_driver/package.zsh'
+[0.424s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspaces/voiture2A-ros/install/voiture2a_motors_driver/share/colcon-core/packages/voiture2a_motors_driver)
+[0.732s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.733s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.733s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[0.733s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.739s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[0.740s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.740s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.740s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.741s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[0.742s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.743s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspaces/voiture2A-ros/install/local_setup.ps1'
+[0.744s] INFO:colcon.colcon_core.shell:Creating prefix util module '/workspaces/voiture2A-ros/install/_local_setup_util_ps1.py'
+[0.745s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspaces/voiture2A-ros/install/setup.ps1'
+[0.746s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspaces/voiture2A-ros/install/local_setup.sh'
+[0.746s] INFO:colcon.colcon_core.shell:Creating prefix util module '/workspaces/voiture2A-ros/install/_local_setup_util_sh.py'
+[0.747s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspaces/voiture2A-ros/install/setup.sh'
+[0.748s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspaces/voiture2A-ros/install/local_setup.bash'
+[0.748s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspaces/voiture2A-ros/install/setup.bash'
+[0.749s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspaces/voiture2A-ros/install/local_setup.zsh'
+[0.749s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspaces/voiture2A-ros/install/setup.zsh'

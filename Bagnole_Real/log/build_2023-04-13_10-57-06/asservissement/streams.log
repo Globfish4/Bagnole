@@ -1,0 +1,38 @@
+[0.014s] Invoking command in '/home/camilo/Documents/ENSTA/4.1/ROS/voitureReal/voiture2A-ros/build/asservissement': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/camilo/Documents/ENSTA/4.1/ROS/voitureReal/voiture2A-ros/build/asservissement -- -j12 -l12
+[0.036s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.065s] -- Using PYTHON_EXECUTABLE: /home/camilo/miniconda3/bin/python3
+[0.194s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.217s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.220s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.298s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.333s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.334s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.437s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.460s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.522s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.523s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.523s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/camilo/Documents/ENSTA/4.1/ROS/voitureReal/voiture2A-ros/src/asservissement/include>
+[0.523s] -- Configured cppcheck exclude dirs and/or files: 
+[0.524s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.524s] -- Configured cpplint exclude dirs and/or files: 
+[0.524s] -- Added test 'lint_cmake' to check CMake code style
+[0.525s] -- Added test 'uncrustify' to check C / C++ code style
+[0.525s] -- Configured uncrustify additional arguments: 
+[0.525s] -- Added test 'xmllint' to check XML markup files
+[0.526s] -- Configuring done
+[0.527s] CMake Error at CMakeLists.txt:27 (add_executable):
+[0.527s]   Cannot find source file:
+[0.527s] 
+[0.527s]     src/asservissement.cpp
+[0.527s] 
+[0.527s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+[0.527s]   .hpp .hxx .in .txx
+[0.527s] 
+[0.527s] 
+[0.527s] CMake Error at CMakeLists.txt:27 (add_executable):
+[0.527s]   No SOURCES given to target: control_node
+[0.528s] 
+[0.528s] 
+[0.528s] CMake Generate step failed.  Build files cannot be regenerated correctly.
+[0.531s] make: *** [Makefile:222: cmake_check_build_system] Error 1
+[0.532s] Invoked command in '/home/camilo/Documents/ENSTA/4.1/ROS/voitureReal/voiture2A-ros/build/asservissement' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/camilo/Documents/ENSTA/4.1/ROS/voitureReal/voiture2A-ros/build/asservissement -- -j12 -l12

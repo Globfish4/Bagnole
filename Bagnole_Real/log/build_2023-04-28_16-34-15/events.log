@@ -1,0 +1,178 @@
+[0.000000] (-) TimerEvent: {}
+[0.000986] (asservissement) JobQueued: {'identifier': 'asservissement', 'dependencies': OrderedDict()}
+[0.001946] (commandant) JobQueued: {'identifier': 'commandant', 'dependencies': OrderedDict()}
+[0.001995] (gpsd_client) JobQueued: {'identifier': 'gpsd_client', 'dependencies': OrderedDict()}
+[0.002043] (voiture2a_motors_driver) JobQueued: {'identifier': 'voiture2a_motors_driver', 'dependencies': OrderedDict()}
+[0.002080] (projection_node) JobQueued: {'identifier': 'projection_node', 'dependencies': OrderedDict([('gpsd_client', '/workspaces/voiture2A-ros/install/gpsd_client')])}
+[0.002125] (gpsd_client) JobStarted: {'identifier': 'gpsd_client'}
+[0.010324] (asservissement) JobStarted: {'identifier': 'asservissement'}
+[0.015182] (commandant) JobStarted: {'identifier': 'commandant'}
+[0.023641] (voiture2a_motors_driver) JobStarted: {'identifier': 'voiture2a_motors_driver'}
+[0.035053] (gpsd_client) JobProgress: {'identifier': 'gpsd_client', 'progress': 'cmake'}
+[0.035597] (gpsd_client) Command: {'cmd': ['/usr/bin/cmake', '/workspaces/voiture2A-ros/src/gpsd_client', '-DCMAKE_INSTALL_PREFIX=/workspaces/voiture2A-ros/install/gpsd_client'], 'cwd': '/workspaces/voiture2A-ros/build/gpsd_client', 'env': OrderedDict([('HOSTNAME', 'a5adf698a75a'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/workspaces/voiture2A-ros/build'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'graphics'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/workspaces/voiture2A-ros/build/gpsd_client'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('EDITOR', 'nano'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble/share/:/opt/ros/humble')]), 'shell': False}
+[0.037590] (asservissement) JobProgress: {'identifier': 'asservissement', 'progress': 'cmake'}
+[0.038081] (asservissement) Command: {'cmd': ['/usr/bin/cmake', '/workspaces/voiture2A-ros/src/asservissement', '-DCMAKE_INSTALL_PREFIX=/workspaces/voiture2A-ros/install/asservissement'], 'cwd': '/workspaces/voiture2A-ros/build/asservissement', 'env': OrderedDict([('HOSTNAME', 'a5adf698a75a'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/workspaces/voiture2A-ros/build'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'graphics'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/workspaces/voiture2A-ros/build/asservissement'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('EDITOR', 'nano'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble/share/:/opt/ros/humble')]), 'shell': False}
+[0.039440] (commandant) JobProgress: {'identifier': 'commandant', 'progress': 'cmake'}
+[0.039706] (commandant) Command: {'cmd': ['/usr/bin/cmake', '/workspaces/voiture2A-ros/src/commandant', '-DCMAKE_INSTALL_PREFIX=/workspaces/voiture2A-ros/install/commandant'], 'cwd': '/workspaces/voiture2A-ros/build/commandant', 'env': OrderedDict([('HOSTNAME', 'a5adf698a75a'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/workspaces/voiture2A-ros/build'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'graphics'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/workspaces/voiture2A-ros/build/commandant'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('EDITOR', 'nano'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble/share/:/opt/ros/humble')]), 'shell': False}
+[0.042467] (voiture2a_motors_driver) JobProgress: {'identifier': 'voiture2a_motors_driver', 'progress': 'cmake'}
+[0.042944] (voiture2a_motors_driver) Command: {'cmd': ['/usr/bin/cmake', '/workspaces/voiture2A-ros/src/voiture2a_motors_driver', '-DCMAKE_INSTALL_PREFIX=/workspaces/voiture2A-ros/install/voiture2a_motors_driver'], 'cwd': '/workspaces/voiture2A-ros/build/voiture2a_motors_driver', 'env': OrderedDict([('HOSTNAME', 'a5adf698a75a'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/workspaces/voiture2A-ros/build'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'graphics'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/workspaces/voiture2A-ros/build/voiture2a_motors_driver'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('EDITOR', 'nano'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble/share/:/opt/ros/humble')]), 'shell': False}
+[0.053872] (commandant) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.054151] (asservissement) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.054253] (gpsd_client) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.054944] (voiture2a_motors_driver) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099663] (-) TimerEvent: {}
+[0.200091] (-) TimerEvent: {}
+[0.200804] (asservissement) StdoutLine: {'line': b'-- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.201043] (voiture2a_motors_driver) StdoutLine: {'line': b'-- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.201138] (commandant) StdoutLine: {'line': b'-- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.206169] (gpsd_client) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.209495] (gpsd_client) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.214754] (gpsd_client) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.243740] (asservissement) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.244010] (commandant) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.245003] (voiture2a_motors_driver) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.246812] (commandant) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.246968] (asservissement) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.248500] (voiture2a_motors_driver) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.253526] (commandant) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.253668] (asservissement) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.254723] (voiture2a_motors_driver) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.255119] (gpsd_client) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.266238] (commandant) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.266455] (voiture2a_motors_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.266581] (asservissement) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.279909] (asservissement) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.280139] (voiture2a_motors_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.280256] (commandant) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.283468] (gpsd_client) StdoutLine: {'line': b'-- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.300160] (-) TimerEvent: {}
+[0.342049] (commandant) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.342295] (asservissement) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.342391] (voiture2a_motors_driver) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.344168] (voiture2a_motors_driver) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.344354] (asservissement) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.344443] (commandant) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.347824] (gpsd_client) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.349527] (gpsd_client) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.400295] (-) TimerEvent: {}
+[0.442695] (gpsd_client) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.443037] (asservissement) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.443195] (commandant) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.444678] (voiture2a_motors_driver) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.475978] (voiture2a_motors_driver) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/share  \n'}
+[0.476320] (asservissement) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/share  \n'}
+[0.476441] (commandant) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/share  \n'}
+[0.476546] (gpsd_client) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/share  \n'}
+[0.500431] (-) TimerEvent: {}
+[0.532768] (asservissement) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.534195] (gpsd_client) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.535590] (voiture2a_motors_driver) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.535762] (commandant) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.545462] (gpsd_client) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.545644] (asservissement) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.547657] (voiture2a_motors_driver) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.547841] (commandant) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.600569] (-) TimerEvent: {}
+[0.613197] (asservissement) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.613521] (asservissement) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.613596] (commandant) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.613737] (gpsd_client) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.613954] (commandant) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.614022] (gpsd_client) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.614249] (voiture2a_motors_driver) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.614492] (voiture2a_motors_driver) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.674021] (voiture2a_motors_driver) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.674361] (commandant) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.674474] (gpsd_client) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.674569] (asservissement) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.674827] (voiture2a_motors_driver) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.674982] (commandant) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.675237] (gpsd_client) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.675363] (asservissement) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.700651] (-) TimerEvent: {}
+[0.801017] (-) TimerEvent: {}
+[0.811819] (voiture2a_motors_driver) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.812248] (commandant) StdoutLine: {'line': b'-- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)\n'}
+[0.812809] (asservissement) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.818654] (voiture2a_motors_driver) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.852403] (asservissement) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.873166] (asservissement) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:24 (find_package):\n'}
+[0.873429] (asservissement) StderrLine: {'line': b'  By not providing "Findgpsd_client.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.873518] (asservissement) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.873607] (asservissement) StderrLine: {'line': b'  "gpsd_client", but CMake did not find one.\n'}
+[0.873699] (asservissement) StderrLine: {'line': b'\n'}
+[0.873781] (asservissement) StderrLine: {'line': b'  Could not find a package configuration file provided by "gpsd_client" with\n'}
+[0.873885] (asservissement) StderrLine: {'line': b'  any of the following names:\n'}
+[0.873958] (asservissement) StderrLine: {'line': b'\n'}
+[0.874027] (asservissement) StderrLine: {'line': b'    gpsd_clientConfig.cmake\n'}
+[0.874096] (asservissement) StderrLine: {'line': b'    gpsd_client-config.cmake\n'}
+[0.874164] (asservissement) StderrLine: {'line': b'\n'}
+[0.874233] (asservissement) StderrLine: {'line': b'  Add the installation prefix of "gpsd_client" to CMAKE_PREFIX_PATH or set\n'}
+[0.874302] (asservissement) StderrLine: {'line': b'  "gpsd_client_DIR" to a directory containing one of the above files.  If\n'}
+[0.874374] (asservissement) StderrLine: {'line': b'  "gpsd_client" provides a separate development package or SDK, be sure it\n'}
+[0.874445] (asservissement) StderrLine: {'line': b'  has been installed.\n'}
+[0.874513] (asservissement) StderrLine: {'line': b'\n'}
+[0.874580] (asservissement) StderrLine: {'line': b'\x1b[0m\n'}
+[0.874646] (asservissement) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.874725] (asservissement) StdoutLine: {'line': b'See also "/workspaces/voiture2A-ros/build/asservissement/CMakeFiles/CMakeOutput.log".\n'}
+[0.882841] (asservissement) CommandEnded: {'returncode': 1}
+[0.902669] (-) TimerEvent: {}
+[0.912756] (asservissement) JobEnded: {'identifier': 'asservissement', 'rc': 1}
+[0.941065] (commandant) StdoutLine: {'line': b'-- Found tf2: 0.25.2 (/opt/ros/humble/share/tf2/cmake)\n'}
+[0.998430] (commandant) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.2 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[1.002757] (-) TimerEvent: {}
+[1.019558] (commandant) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[1.021563] (commandant) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[1.021717] (commandant) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.078969] (gpsd_client) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.082905] (voiture2a_motors_driver) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.102869] (-) TimerEvent: {}
+[1.203240] (-) TimerEvent: {}
+[1.270646] (gpsd_client) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.272575] (commandant) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.303358] (-) TimerEvent: {}
+[1.357635] (commandant) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.358831] (commandant) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.359001] (commandant) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/workspaces/voiture2A-ros/src/commandant/include>\n'}
+[1.359092] (commandant) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.359964] (commandant) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.360077] (commandant) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.360608] (voiture2a_motors_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.360778] (commandant) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.361817] (commandant) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.361945] (commandant) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.362388] (commandant) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.363748] (commandant) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.375468] (commandant) StdoutLine: {'line': b'-- Generating done\n'}
+[1.376864] (commandant) StdoutLine: {'line': b'-- Build files have been written to: /workspaces/voiture2A-ros/build/commandant\n'}
+[1.387353] (commandant) JobEnded: {'identifier': 'commandant', 'rc': 'SIGINT'}
+[1.403915] (-) TimerEvent: {}
+[1.474906] (voiture2a_motors_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.497950] (voiture2a_motors_driver) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") \n'}
+[1.499608] (voiture2a_motors_driver) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.503988] (-) TimerEvent: {}
+[1.530633] (voiture2a_motors_driver) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") \n'}
+[1.530949] (voiture2a_motors_driver) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.531032] (voiture2a_motors_driver) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.531107] (voiture2a_motors_driver) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.548197] (voiture2a_motors_driver) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.550526] (gpsd_client) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.571058] (gpsd_client) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") \n'}
+[1.572235] (gpsd_client) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.593963] (voiture2a_motors_driver) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.598028] (gpsd_client) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") \n'}
+[1.598211] (gpsd_client) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.598296] (gpsd_client) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.598381] (gpsd_client) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.604072] (-) TimerEvent: {}
+[1.616501] (gpsd_client) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.622393] (voiture2a_motors_driver) StdoutLine: {'line': b'-- Generating done\n'}
+[1.624681] (voiture2a_motors_driver) StdoutLine: {'line': b'-- Build files have been written to: /workspaces/voiture2A-ros/build/voiture2a_motors_driver\n'}
+[1.635103] (voiture2a_motors_driver) JobEnded: {'identifier': 'voiture2a_motors_driver', 'rc': 'SIGINT'}
+[1.669389] (gpsd_client) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.695931] (gpsd_client) StdoutLine: {'line': b'-- Generating done\n'}
+[1.698192] (gpsd_client) StdoutLine: {'line': b'-- Build files have been written to: /workspaces/voiture2A-ros/build/gpsd_client\n'}
+[1.704144] (-) TimerEvent: {}
+[1.708388] (gpsd_client) JobEnded: {'identifier': 'gpsd_client', 'rc': 'SIGINT'}
+[1.719869] (projection_node) JobSkipped: {'identifier': 'projection_node'}
+[1.720161] (-) EventReactorShutdown: {}

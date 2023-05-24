@@ -1,0 +1,1 @@
+Invoking command in '/workspaces/voiture2A-ros/build/asservissement': /usr/bin/cmake --build /workspaces/voiture2A-ros/build/asservissement -- -j12 -l12

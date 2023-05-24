@@ -1,0 +1,55 @@
+[0.023s] Invoking command in '/home/camilo/Documents/ENSTA/4.1/ROS/voitureReal/voiture2A-ros/build/gpsd_client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/camilo/Documents/ENSTA/4.1/ROS/voitureReal/voiture2A-ros/src/gpsd_client -DCMAKE_INSTALL_PREFIX=/home/camilo/Documents/ENSTA/4.1/ROS/voitureReal/voiture2A-ros/install/gpsd_client
+[0.146s] -- The C compiler identification is GNU 9.4.0
+[0.201s] -- The CXX compiler identification is GNU 9.4.0
+[0.208s] -- Check for working C compiler: /usr/bin/cc
+[0.290s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.291s] -- Detecting C compiler ABI info
+[0.367s] -- Detecting C compiler ABI info - done
+[0.375s] -- Detecting C compile features
+[0.375s] -- Detecting C compile features - done
+[0.377s] -- Check for working CXX compiler: /usr/bin/c++
+[0.443s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.444s] -- Detecting CXX compiler ABI info
+[0.519s] -- Detecting CXX compiler ABI info - done
+[0.532s] -- Detecting CXX compile features
+[0.532s] -- Detecting CXX compile features - done
+[0.534s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.554s] -- Found PythonInterp: /home/camilo/miniconda3/bin/python3 (found suitable version "3.10.8", minimum required is "3") 
+[0.554s] -- Using PYTHON_EXECUTABLE: /home/camilo/miniconda3/bin/python3
+[0.758s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.762s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.769s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.863s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.885s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.964s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.993s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.038s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.039s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.040s] -- Looking for pthread.h
+[1.101s] -- Looking for pthread.h - found
+[1.101s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.159s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.160s] -- Looking for pthread_create in pthreads
+[1.201s] -- Looking for pthread_create in pthreads - not found
+[1.201s] -- Looking for pthread_create in pthread
+[1.249s] -- Looking for pthread_create in pthread - found
+[1.251s] -- Found Threads: TRUE  
+[1.387s] -- Found PythonInterp: /home/camilo/miniconda3/bin/python3 (found version "3.10.8") 
+[1.527s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[1.704s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.753s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.771s] -- Found PythonInterp: /home/camilo/miniconda3/bin/python3 (found suitable version "3.10.8", minimum required is "3.5") 
+[1.772s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[1.789s] -- Found PythonLibs: /home/camilo/miniconda3/lib/libpython3.10.so (found suitable version "3.10.8", minimum required is "3.5") 
+[1.789s] -- Using PYTHON_EXECUTABLE: /home/camilo/miniconda3/bin/python3
+[1.789s] -- Using PYTHON_INCLUDE_DIRS: /home/camilo/miniconda3/include/python3.10
+[1.789s] -- Using PYTHON_LIBRARIES: /home/camilo/miniconda3/lib/libpython3.10.so
+[1.809s] -- Found PythonExtra: .so  
+[2.116s] -- Using numpy include directory: /home/camilo/miniconda3/lib/python3.10/site-packages/numpy/core/include
+[2.125s] CMake Error at CMakeLists.txt:15 (rosidl_get_typesupport_target):
+[2.125s]   Unknown CMake command "rosidl_get_typesupport_target".
+[2.126s] 
+[2.126s] 
+[2.126s] -- Configuring incomplete, errors occurred!
+[2.127s] See also "/home/camilo/Documents/ENSTA/4.1/ROS/voitureReal/voiture2A-ros/build/gpsd_client/CMakeFiles/CMakeOutput.log".
+[2.127s] See also "/home/camilo/Documents/ENSTA/4.1/ROS/voitureReal/voiture2A-ros/build/gpsd_client/CMakeFiles/CMakeError.log".

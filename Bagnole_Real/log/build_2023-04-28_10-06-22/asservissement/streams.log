@@ -1,0 +1,21 @@
+[0.013s] Invoking command in '/workspaces/voiture2A-ros/build/asservissement': /usr/bin/cmake /workspaces/voiture2A-ros/src/asservissement -DCMAKE_INSTALL_PREFIX=/workspaces/voiture2A-ros/install/asservissement
+[0.035s] [31mCMake Error at CMakeLists.txt:20 (find_package):
+[0.036s]   By not providing "Findrclcpp.cmake" in CMAKE_MODULE_PATH this project has
+[0.036s]   asked CMake to find a package configuration file provided by "rclcpp", but
+[0.036s]   CMake did not find one.
+[0.036s] 
+[0.036s]   Could not find a package configuration file provided by "rclcpp" with any
+[0.037s]   of the following names:
+[0.037s] 
+[0.038s]     rclcppConfig.cmake
+[0.038s]     rclcpp-config.cmake
+[0.038s] 
+[0.038s]   Add the installation prefix of "rclcpp" to CMAKE_PREFIX_PATH or set
+[0.038s]   "rclcpp_DIR" to a directory containing one of the above files.  If "rclcpp"
+[0.039s]   provides a separate development package or SDK, be sure it has been
+[0.039s]   installed.
+[0.039s] 
+[0.039s] [0m
+[0.040s] -- Configuring incomplete, errors occurred!
+[0.040s] See also "/workspaces/voiture2A-ros/build/asservissement/CMakeFiles/CMakeOutput.log".
+[0.049s] Invoked command in '/workspaces/voiture2A-ros/build/asservissement' returned '1': /usr/bin/cmake /workspaces/voiture2A-ros/src/asservissement -DCMAKE_INSTALL_PREFIX=/workspaces/voiture2A-ros/install/asservissement

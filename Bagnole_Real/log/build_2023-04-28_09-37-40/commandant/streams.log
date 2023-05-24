@@ -1,0 +1,33 @@
+[0.012s] Invoking command in '/workspaces/voiture2A-ros/build/commandant': /usr/bin/cmake /workspaces/voiture2A-ros/src/commandant -DCMAKE_INSTALL_PREFIX=/workspaces/voiture2A-ros/install/commandant
+[0.051s] -- The C compiler identification is GNU 11.3.0
+[0.090s] -- The CXX compiler identification is GNU 11.3.0
+[0.095s] -- Detecting C compiler ABI info
+[0.139s] -- Detecting C compiler ABI info - done
+[0.144s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.145s] -- Detecting C compile features
+[0.145s] -- Detecting C compile features - done
+[0.147s] -- Detecting CXX compiler ABI info
+[0.199s] -- Detecting CXX compiler ABI info - done
+[0.210s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.210s] -- Detecting CXX compile features
+[0.211s] -- Detecting CXX compile features - done
+[0.224s] [31mCMake Error at CMakeLists.txt:19 (find_package):
+[0.224s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.224s]   has asked CMake to find a package configuration file provided by
+[0.224s]   "ament_cmake", but CMake did not find one.
+[0.224s] 
+[0.224s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.225s]   any of the following names:
+[0.225s] 
+[0.225s]     ament_cmakeConfig.cmake
+[0.225s]     ament_cmake-config.cmake
+[0.225s] 
+[0.225s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.225s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.225s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.225s]   has been installed.
+[0.225s] 
+[0.225s] [0m
+[0.225s] -- Configuring incomplete, errors occurred!
+[0.225s] See also "/workspaces/voiture2A-ros/build/commandant/CMakeFiles/CMakeOutput.log".
+[0.228s] Invoked command in '/workspaces/voiture2A-ros/build/commandant' returned '1': /usr/bin/cmake /workspaces/voiture2A-ros/src/commandant -DCMAKE_INSTALL_PREFIX=/workspaces/voiture2A-ros/install/commandant

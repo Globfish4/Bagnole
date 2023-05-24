@@ -1,0 +1,2 @@
+Invoking command in '/workspaces/voiture2A-ros/build/projection_node': /usr/bin/cmake /workspaces/voiture2A-ros/src/projection_node -DCMAKE_INSTALL_PREFIX=/workspaces/voiture2A-ros/install/projection_node
+Invoked command in '/workspaces/voiture2A-ros/build/projection_node' returned '1': /usr/bin/cmake /workspaces/voiture2A-ros/src/projection_node -DCMAKE_INSTALL_PREFIX=/workspaces/voiture2A-ros/install/projection_node

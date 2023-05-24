@@ -1,0 +1,143 @@
+[0.000000] (-) TimerEvent: {}
+[0.000773] (gpsd_client) JobQueued: {'identifier': 'gpsd_client', 'dependencies': OrderedDict()}
+[0.000827] (voiture2a_motors_driver) JobQueued: {'identifier': 'voiture2a_motors_driver', 'dependencies': OrderedDict()}
+[0.000864] (gpsd_client) JobStarted: {'identifier': 'gpsd_client'}
+[0.016661] (voiture2a_motors_driver) JobStarted: {'identifier': 'voiture2a_motors_driver'}
+[0.022647] (gpsd_client) JobProgress: {'identifier': 'gpsd_client', 'progress': 'cmake'}
+[0.022852] (gpsd_client) Command: {'cmd': ['/usr/bin/cmake', '/home/camilo/Documents/ENSTA/4.1/ROS/voitureReal/voiture2A-ros/src/gpsd_client', '-DCMAKE_INSTALL_PREFIX=/home/camilo/Documents/ENSTA/4.1/ROS/voitureReal/voiture2A-ros/install/gpsd_client'], 'cwd': '/home/camilo/Documents/ENSTA/4.1/ROS/voitureReal/voiture2A-ros/build/gpsd_client', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'camilo'), ('SSH_AGENT_PID', '2049'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/camilo/Documents/ENSTA/4.1/ROS/ROSproject/tp-ros2/install/tp1/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/camilo'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/camilo/Documents/ENSTA/4.1/ROS/voitureReal'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1813'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/camilo/Documents/ENSTA/4.1/ROS/ROSproject/tp-ros2/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'camilo'), ('JOURNAL_STREAM', '8:50147'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'camilo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/camilo/miniconda3/bin:/home/camilo/miniconda3/condabin:/home/camilo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/camilo-Victus-by-HP-Laptop-16-e0xxx:@/tmp/.ICE-unix/2114,unix/camilo-Victus-by-HP-Laptop-16-e0xxx:/tmp/.ICE-unix/2114'), ('INVOCATION_ID', '53355b197ac44d049e03221e4312dccf'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d63b748a_afad_45e5_8c77_0671bd44cf51'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.157'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/camilo/Documents/ENSTA/4.1/ROS/ROSproject/tp-ros2/install/tp2:/home/camilo/Documents/ENSTA/4.1/ROS/ROSproject/tp-ros2/install/tp1:/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/camilo/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/camilo/Documents/ENSTA/4.1/ROS/voitureReal/voiture2A-ros/build/gpsd_client'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/camilo/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/camilo/Documents/ENSTA/4.1/ROS/ROSproject/tp-ros2/install/tp1/lib/python3.10/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('CONDA_PREFIX', '/home/camilo/miniconda3'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/camilo/Documents/ENSTA/4.1/ROS/ROSproject/tp-ros2/install/tp2:/home/camilo/Documents/ENSTA/4.1/ROS/ROSproject/tp-ros2/install/tp1:/opt/ros/foxy')]), 'shell': False}
+[0.027782] (voiture2a_motors_driver) JobProgress: {'identifier': 'voiture2a_motors_driver', 'progress': 'cmake'}
+[0.029022] (voiture2a_motors_driver) Command: {'cmd': ['/usr/bin/cmake', '/home/camilo/Documents/ENSTA/4.1/ROS/voitureReal/voiture2A-ros/src/voiture2a_motors_driver', '-DCMAKE_INSTALL_PREFIX=/home/camilo/Documents/ENSTA/4.1/ROS/voitureReal/voiture2A-ros/install/voiture2a_motors_driver'], 'cwd': '/home/camilo/Documents/ENSTA/4.1/ROS/voitureReal/voiture2A-ros/build/voiture2a_motors_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'camilo'), ('SSH_AGENT_PID', '2049'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/camilo/Documents/ENSTA/4.1/ROS/ROSproject/tp-ros2/install/tp1/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/camilo'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/camilo/Documents/ENSTA/4.1/ROS/voitureReal'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1813'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/camilo/Documents/ENSTA/4.1/ROS/ROSproject/tp-ros2/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'camilo'), ('JOURNAL_STREAM', '8:50147'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'camilo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/camilo/miniconda3/bin:/home/camilo/miniconda3/condabin:/home/camilo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/camilo-Victus-by-HP-Laptop-16-e0xxx:@/tmp/.ICE-unix/2114,unix/camilo-Victus-by-HP-Laptop-16-e0xxx:/tmp/.ICE-unix/2114'), ('INVOCATION_ID', '53355b197ac44d049e03221e4312dccf'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d63b748a_afad_45e5_8c77_0671bd44cf51'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.157'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/camilo/Documents/ENSTA/4.1/ROS/ROSproject/tp-ros2/install/tp2:/home/camilo/Documents/ENSTA/4.1/ROS/ROSproject/tp-ros2/install/tp1:/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/camilo/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/camilo/Documents/ENSTA/4.1/ROS/voitureReal/voiture2A-ros/build/voiture2a_motors_driver'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/camilo/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/camilo/Documents/ENSTA/4.1/ROS/ROSproject/tp-ros2/install/tp1/lib/python3.10/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('CONDA_PREFIX', '/home/camilo/miniconda3'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/camilo/Documents/ENSTA/4.1/ROS/ROSproject/tp-ros2/install/tp2:/home/camilo/Documents/ENSTA/4.1/ROS/ROSproject/tp-ros2/install/tp1:/opt/ros/foxy')]), 'shell': False}
+[0.099829] (-) TimerEvent: {}
+[0.146558] (voiture2a_motors_driver) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.146902] (gpsd_client) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.199961] (-) TimerEvent: {}
+[0.202007] (gpsd_client) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.202456] (voiture2a_motors_driver) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.208560] (voiture2a_motors_driver) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.208745] (gpsd_client) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.290760] (gpsd_client) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.291080] (voiture2a_motors_driver) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.292040] (voiture2a_motors_driver) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.292201] (gpsd_client) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.300094] (-) TimerEvent: {}
+[0.365882] (voiture2a_motors_driver) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.367816] (gpsd_client) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.374172] (voiture2a_motors_driver) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.374425] (voiture2a_motors_driver) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.375534] (gpsd_client) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.375793] (gpsd_client) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.376909] (voiture2a_motors_driver) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.377569] (gpsd_client) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.400264] (-) TimerEvent: {}
+[0.443678] (gpsd_client) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.444057] (voiture2a_motors_driver) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.444414] (gpsd_client) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.444900] (voiture2a_motors_driver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.500454] (-) TimerEvent: {}
+[0.518706] (voiture2a_motors_driver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.519719] (gpsd_client) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.531560] (voiture2a_motors_driver) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.531960] (voiture2a_motors_driver) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.532481] (gpsd_client) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.532904] (gpsd_client) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.534356] (voiture2a_motors_driver) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.534468] (gpsd_client) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.554170] (voiture2a_motors_driver) StdoutLine: {'line': b'-- Found PythonInterp: /home/camilo/miniconda3/bin/python3 (found suitable version "3.10.8", minimum required is "3") \n'}
+[0.554473] (voiture2a_motors_driver) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /home/camilo/miniconda3/bin/python3\n'}
+[0.554570] (gpsd_client) StdoutLine: {'line': b'-- Found PythonInterp: /home/camilo/miniconda3/bin/python3 (found suitable version "3.10.8", minimum required is "3") \n'}
+[0.554691] (gpsd_client) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /home/camilo/miniconda3/bin/python3\n'}
+[0.600595] (-) TimerEvent: {}
+[0.701527] (-) TimerEvent: {}
+[0.758504] (gpsd_client) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[0.758848] (voiture2a_motors_driver) StdoutLine: {'line': b'-- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.762913] (gpsd_client) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.770258] (gpsd_client) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.795774] (voiture2a_motors_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.799632] (voiture2a_motors_driver) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.801978] (-) TimerEvent: {}
+[0.863213] (gpsd_client) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[0.866365] (voiture2a_motors_driver) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[0.885728] (gpsd_client) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[0.887881] (voiture2a_motors_driver) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[0.902446] (-) TimerEvent: {}
+[0.951704] (voiture2a_motors_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.964478] (gpsd_client) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.993670] (gpsd_client) StdoutLine: {'line': b'-- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[1.002563] (-) TimerEvent: {}
+[1.034167] (voiture2a_motors_driver) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[1.036176] (voiture2a_motors_driver) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.037445] (voiture2a_motors_driver) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.039019] (gpsd_client) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[1.040094] (gpsd_client) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.040729] (gpsd_client) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.101549] (gpsd_client) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.101861] (gpsd_client) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.101978] (voiture2a_motors_driver) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.102161] (voiture2a_motors_driver) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.102652] (-) TimerEvent: {}
+[1.159947] (gpsd_client) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[1.160306] (gpsd_client) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[1.160478] (voiture2a_motors_driver) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[1.160601] (voiture2a_motors_driver) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[1.201564] (gpsd_client) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[1.201789] (gpsd_client) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[1.202076] (voiture2a_motors_driver) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[1.202231] (voiture2a_motors_driver) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[1.202741] (-) TimerEvent: {}
+[1.249481] (voiture2a_motors_driver) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[1.250195] (gpsd_client) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[1.250546] (voiture2a_motors_driver) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.251594] (gpsd_client) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.302882] (-) TimerEvent: {}
+[1.371794] (voiture2a_motors_driver) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[1.379718] (voiture2a_motors_driver) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[1.387806] (gpsd_client) StdoutLine: {'line': b'-- Found PythonInterp: /home/camilo/miniconda3/bin/python3 (found version "3.10.8") \n'}
+[1.402978] (-) TimerEvent: {}
+[1.422545] (voiture2a_motors_driver) StdoutLine: {'line': b'-- Found PythonInterp: /home/camilo/miniconda3/bin/python3 (found version "3.10.8") \n'}
+[1.503492] (-) TimerEvent: {}
+[1.527276] (gpsd_client) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[1.527554] (voiture2a_motors_driver) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[1.603613] (-) TimerEvent: {}
+[1.647985] (voiture2a_motors_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.655869] (voiture2a_motors_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.673490] (voiture2a_motors_driver) StdoutLine: {'line': b'-- Found PythonInterp: /home/camilo/miniconda3/bin/python3 (found suitable version "3.10.8", minimum required is "3.5") \n'}
+[1.675073] (voiture2a_motors_driver) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[1.693452] (voiture2a_motors_driver) StdoutLine: {'line': b'-- Found PythonLibs: /home/camilo/miniconda3/lib/libpython3.10.so (found suitable version "3.10.8", minimum required is "3.5") \n'}
+[1.693674] (voiture2a_motors_driver) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /home/camilo/miniconda3/bin/python3\n'}
+[1.693766] (voiture2a_motors_driver) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /home/camilo/miniconda3/include/python3.10\n'}
+[1.693848] (voiture2a_motors_driver) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /home/camilo/miniconda3/lib/libpython3.10.so\n'}
+[1.703687] (-) TimerEvent: {}
+[1.704894] (gpsd_client) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.707835] (voiture2a_motors_driver) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.753591] (gpsd_client) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.771555] (gpsd_client) StdoutLine: {'line': b'-- Found PythonInterp: /home/camilo/miniconda3/bin/python3 (found suitable version "3.10.8", minimum required is "3.5") \n'}
+[1.772414] (gpsd_client) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[1.789537] (gpsd_client) StdoutLine: {'line': b'-- Found PythonLibs: /home/camilo/miniconda3/lib/libpython3.10.so (found suitable version "3.10.8", minimum required is "3.5") \n'}
+[1.789752] (gpsd_client) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /home/camilo/miniconda3/bin/python3\n'}
+[1.789829] (gpsd_client) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /home/camilo/miniconda3/include/python3.10\n'}
+[1.789894] (gpsd_client) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /home/camilo/miniconda3/lib/libpython3.10.so\n'}
+[1.803839] (-) TimerEvent: {}
+[1.809974] (gpsd_client) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.903953] (-) TimerEvent: {}
+[2.004248] (-) TimerEvent: {}
+[2.017085] (voiture2a_motors_driver) StdoutLine: {'line': b'-- Using numpy include directory: /home/camilo/miniconda3/lib/python3.10/site-packages/numpy/core/include\n'}
+[2.023884] (voiture2a_motors_driver) StderrLine: {'line': b'CMake Error at CMakeLists.txt:19 (rosidl_get_typesupport_target):\n'}
+[2.024062] (voiture2a_motors_driver) StderrLine: {'line': b'  Unknown CMake command "rosidl_get_typesupport_target".\n'}
+[2.024136] (voiture2a_motors_driver) StderrLine: {'line': b'\n'}
+[2.024276] (voiture2a_motors_driver) StderrLine: {'line': b'\n'}
+[2.028569] (voiture2a_motors_driver) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.028721] (voiture2a_motors_driver) StdoutLine: {'line': b'See also "/home/camilo/Documents/ENSTA/4.1/ROS/voitureReal/voiture2A-ros/build/voiture2a_motors_driver/CMakeFiles/CMakeOutput.log".\n'}
+[2.028852] (voiture2a_motors_driver) StdoutLine: {'line': b'See also "/home/camilo/Documents/ENSTA/4.1/ROS/voitureReal/voiture2A-ros/build/voiture2a_motors_driver/CMakeFiles/CMakeError.log".\n'}
+[2.044792] (voiture2a_motors_driver) CommandEnded: {'returncode': 1}
+[2.083505] (voiture2a_motors_driver) JobEnded: {'identifier': 'voiture2a_motors_driver', 'rc': 1}
+[2.104356] (-) TimerEvent: {}
+[2.116681] (gpsd_client) StdoutLine: {'line': b'-- Using numpy include directory: /home/camilo/miniconda3/lib/python3.10/site-packages/numpy/core/include\n'}
+[2.126136] (gpsd_client) StderrLine: {'line': b'CMake Error at CMakeLists.txt:15 (rosidl_get_typesupport_target):\n'}
+[2.126290] (gpsd_client) StderrLine: {'line': b'  Unknown CMake command "rosidl_get_typesupport_target".\n'}
+[2.126363] (gpsd_client) StderrLine: {'line': b'\n'}
+[2.126431] (gpsd_client) StderrLine: {'line': b'\n'}
+[2.127255] (gpsd_client) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.127376] (gpsd_client) StdoutLine: {'line': b'See also "/home/camilo/Documents/ENSTA/4.1/ROS/voitureReal/voiture2A-ros/build/gpsd_client/CMakeFiles/CMakeOutput.log".\n'}
+[2.127458] (gpsd_client) StdoutLine: {'line': b'See also "/home/camilo/Documents/ENSTA/4.1/ROS/voitureReal/voiture2A-ros/build/gpsd_client/CMakeFiles/CMakeError.log".\n'}
+[2.134244] (gpsd_client) JobEnded: {'identifier': 'gpsd_client', 'rc': 'SIGINT'}
+[2.145197] (-) EventReactorShutdown: {}
